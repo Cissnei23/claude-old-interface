@@ -1,0 +1,33 @@
+# Local runtime state: conversations, project files, artifacts, and shared UI data
+data/
+*.rdb
+*.sqlite
+*.sqlite3
+*.db
+
+# Local/private connection details
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local reference captures and device-specific URLs
+*.jpg
+*.jpeg
+*.png
+phone-url.txt
+
+# Operating-system/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Dependencies and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
